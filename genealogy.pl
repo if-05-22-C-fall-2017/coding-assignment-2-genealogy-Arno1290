@@ -6,6 +6,7 @@ parent(john, pat).
 parent(pat, jacob).
 parent(carol, jacob).
 
+
 male(adam).
 male(eve).
 male(john).
@@ -15,5 +16,6 @@ male(jacob).
 female(lisa).
 female(carol).
 female(anne).
+
 
 grandparent(X, Y) :- parent(X, Z), parent(Z, Y).
